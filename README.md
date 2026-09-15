@@ -1,7 +1,5 @@
-# Task_2 [2020]
+# Task_2 [2026-1]
 Task 2 : Linked List Introduction
-
-# DEADLINE = FEBRUARY 9th, 2020 - 23:59
 
 ## Reading Material
 * [git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
