@@ -72,9 +72,9 @@ address findElm(List L, infotype x) {
     //-------------your code here-------------
     while (P != NULL){
         if (P->info.ID == x.ID){
-            return P
+            return P;
         }
-        P = P->next
+        P = P->next;
     }
 
 
@@ -104,7 +104,7 @@ void deleteLast(List &L, address &P) {
     if (L.first == NULL){
         P = NULL
     }else if (L.first->next == NULL){
-        deleteFirst(L, P)
+        deleteFirst(L, P);
     }else{
         address Q = L.first;
         while (Q->next->next != NULL){
